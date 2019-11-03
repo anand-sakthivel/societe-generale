@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import java.util.Date;
 import java.util.List;
 
-import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
@@ -19,7 +19,7 @@ public class EmployeeControllerTest {
 	
 	EmployeeController employeeController; 
 	
-	@BeforeAll
+	@BeforeEach
 	public void setUp() {
 		MockitoAnnotations.initMocks(this);
 		employeeController = new EmployeeController(employeeService);
