@@ -2,7 +2,7 @@
 Problem Statement KATA
 
 Step 1 :
-     Download and Install git software. After successfully installed clone the project by using
+     Download and Install (git, node & java) software. After successfully installed clone the project by using
      below comment.
      # cmd - git clone https://github.com/anand-sakthivel/societe-generale.git
      
