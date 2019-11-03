@@ -1,0 +1,26 @@
+<div clas="align-center" style="padding-top: 50px;">
+  <div class="border">
+    <table class="table table-dark">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">First Name</th>
+          <th scope="col">Last Name</th>
+          <th scope="col">Gender</th>
+          <th scope="col">Date of Birth</th>
+          <th scope="col">Department</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let employee of employeesList">
+          <th scope="row">{{ employee.id }}</th>
+          <td>{{ employee.firstName }}</td>
+          <td>{{ employee.lastName }}</td>
+          <td>{{ employee.gender }}</td>
+          <td>{{ employee.dob }}</td>
+          <td>{{ employee.department }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>

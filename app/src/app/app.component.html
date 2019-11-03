@@ -1,0 +1,10 @@
+<div class="container" *ngIf="appService.showHeader">
+  <div class="navbar navbar-expand-xl bg-dark">
+    <button class="btn align-right highlight" (click)="goToHome()">Home</button>
+    <button class="btn align-right highlight" (click)="goToRegister()">Register</button>
+    <button class="btn align-right highlight" (click)="goToEmployeeList()">View Employee</button>
+  </div>
+</div>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

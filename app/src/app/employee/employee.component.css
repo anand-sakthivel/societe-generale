@@ -1,0 +1,12 @@
+.error-msg {
+    color: red;
+}
+
+.success {
+    color: green;
+}
+
+.half-screen {
+    width: 40%;
+    padding-top: 60px;
+}
